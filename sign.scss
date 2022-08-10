@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.head {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex
+}
+
+.head img {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 20px
+}
+
+.head h3 {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-left: 10px
+}
+
+.head .denglu {
+    display: flex;
+    margin-top: 95px;
+    margin-left: 600px
+}
+
+.head .denglu span {
+    font-size: 18px;
+    color: #ababab
+}
+
+.head .denglu a {
+    font-size: 18px;
+    color: red
+}
+
+.head .denglu a:hover {
+    color: #d50303;
+    cursor: pointer
+}
+
+.bian {
+    height: 10px;
+    background: linear-gradient(gray, #fff);
+    margin-top: 20px
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fee44e;
+    padding: 50px
+}
+
+.container form {
+    width: 100%;
+    line-height: 40px
+}
+
+.container form input {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px
+}
+
+.container form p {
+    color: gray;
+    font-size: 12px
+}

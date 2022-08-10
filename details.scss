@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #f6f6f6
+}
+
+.header {
+    width: 1200px;
+    height: 160px;
+    margin: 0 auto;
+    display: flex
+}
+
+.header .left {
+    height: 75px;
+    display: flex;
+    margin-top: 50px
+}
+
+.header .left img {
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    margin-left: 30px
+}
+
+.header .left .title {
+    margin-top: 5px
+}
+
+.header .right,
+.header .search {
+    margin-top: 50px
+}
+
+.header .left .title h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-left: 15px
+}
+
+.header .left .title span {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 17px;
+    transform: scale(.8)
+}
+
+.container,
+.header .search {
+    display: flex;
+    position: relative
+}
+
+.header .search {
+    margin-left: 85px
+}
+
+.header .search span {
+    font-size: 22px;
+    height: 44px;
+    color: #4d2c19;
+    border: #43240c;
+    position: absolute;
+    top: 14px;
+    left: 19px
+}
+
+.header .search input {
+    width: 528px;
+    height: 44px;
+    font-size: 16px;
+    border: 2px solid #43240c;
+    border-radius: 30px;
+    padding-left: 50px
+}
+
+.header .right button,
+.header .search .btn {
+    height: 40px;
+    color: #43200c;
+    line-height: 40px;
+    background-color: #fee44e;
+    border-radius: 50px
+}
+
+.header .search .btn {
+    width: 124px;
+    text-align: center;
+    position: absolute;
+    top: 4px;
+    right: 5px
+}
+
+.header .right button {
+    width: 100px;
+    border: 2px solid #43200c;
+    margin-left: 20px
+}
+
+.nav,
+.nav ul,
+.nav ul li {
+    height: 46px
+}
+
+.header .right button:hover {
+    cursor: pointer
+}
+
+.nav {
+    width: 100%;
+    background-color: #43240c
+}
+
+.nav ul {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.nav ul li {
+    width: 220px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 46px;
+    float: left;
+    list-style: none;
+    color: #fff
+}
+
+.nav ul li:hover {
+    background-color: #fee44e;
+    color: #43200c;
+    cursor: pointer
+}
+
+.container {
+    width: 1200px;
+    height: 700px;
+    margin: 20px auto
+}
+
+.container .left {
+    margin-left: 100px
+}
+
+.container .left .wrap {
+    position: relative
+}
+
+.container .left .wrap .show {
+    width: 400px;
+    height: 400px;
+    position: relative
+}
+
+.container .left .wrap .show img {
+    width: 100%;
+    height: 100%
+}
+
+.container .left .wrap .move {
+    width: 100px;
+    height: 100px;
+    background-color: #87ceeb;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    display: none
+}
+
+.container .left ul {
+    width: 400px;
+    display: flex;
+    justify-content: space-between
+}
+
+.container .left ul li,
+.container .left ul li img {
+    width: 92px;
+    height: 92px
+}
+
+.container .left ul li {
+    list-style: none;
+    border: 2px solid transparent
+}
+
+.container .left ul .active {
+    border: 2px solid pink
+}
+
+.container .right {
+    margin-left: 20px;
+    position: relative
+}
+
+.container .right .glass {
+    width: 500px;
+    height: 500px;
+    display: none;
+    overflow: hidden;
+    position: absolute
+}
+
+.container .right .glass .wrape {
+    position: absolute
+}
+
+.container .right .glass .wrape img {
+    position: absolute;
+    width: 2000px;
+    height: 2000px
+}
+
+.container .right .details {
+    width: 500px;
+    height: 500px;
+    background-color: #fff7f5
+}
+
+.container .right .details h3 {
+    height: 100px;
+    font-size: 22px;
+    border-bottom: 1px dashed gray;
+    line-height: 28px;
+    margin-top: 10px
+}
+
+.container .right .details .yuan {
+    margin-top: 15px;
+    height: 35px;
+    font-size: 18px
+}
+
+.container .right .details .yuan span {
+    font-size: 16px;
+    color: #8a8782;
+    text-decoration: line-through
+}
+
+.container .right .details .tao {
+    height: 35px;
+    font-size: 20px
+}
+
+.container .right .details .tao span {
+    font-size: 22px;
+    color: red
+}
+
+.container .right .details .bag {
+    height: 35px;
+    font-size: 20px
+}
+
+.container .right .details .num {
+    margin-top: 20px;
+    font-size: 20px
+}
+
+.container .right .details .num .add {
+    width: 25px;
+    height: 25px
+}
+
+.container .right .details .num .shu {
+    width: 50px;
+    height: 22px;
+    text-align: center
+}
+
+.container .right .details .btn {
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 300px
+}
+
+.container .right .details .btn .buy,
+.container .right .details .btn .join {
+    width: 80px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    color: #fff
+}
+
+.container .right .details .btn .join:hover {
+    cursor: pointer
+}
+
+.container .right .details .btn .buy {
+    margin-left: 20px
+}
+
+.container .right .details .btn .buy:hover {
+    cursor: pointer
+}
+
+.footer {
+    height: 240px;
+    background-color: #484848
+}
+
+.footer .high {
+    display: flex
+}
+
+.footer .high img {
+    float: left;
+    width: 112px;
+    height: 112px;
+    margin: 37px 19px 0 40px
+}
+
+.footer .high .biaoti {
+    margin-top: 52px;
+    margin-left: 20px
+}
+
+.footer .high .biaoti h1 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 600
+}
+
+.footer .high .biaoti span {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    margin-left: 8px
+}
+
+.footer .high .download {
+    display: flex;
+    margin-top: 90px;
+    margin-left: 197px
+}
+
+.footer .high .download p {
+    color: #fff;
+    font-size: 22px
+}
+
+.footer .high .download span {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 15px
+}
+
+.footer .high .download span:hover {
+    color: red;
+    cursor: pointer
+}
+
+.footer .down {
+    text-align: center;
+    margin-top: 50px
+}
+
+.footer .down img {
+    width: 22px;
+    height: 22px;
+    vertical-align: -4px
+}
+
+.footer .down span {
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    margin-left: 5px;
+    margin-top: 0
+}
+
+// 页脚
+.main {
+    width: 1200px;
+    height: 500px;
+    background-color: orange;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main .left {
+    width: 100%;
+    background-color:white;
+
+}
+
+.main .left .zoom {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+
+}
+
+.main .left .zoom .pic {
+    width: 600px;
+    height: 340px;
+    background-color:white;
+    position: absolute;
+}
+.main .left .zoom .bigPic {
+    width: 600px;
+    height: 340px;
+    background-color:palegoldenrod;
+    overflow: hidden;
+    display: none;
+ position: relative;
+}
+
+.main .left .zoom .bigPic img {
+    width: 500px;
+    height: 340px;
+position: absolute;
+top:0;
+left: 600px;
+}
+
+// .main .left .zoom ul {
+//     display: flex;
+// }
+
+// .main .left .zoom ul li {
+//     list-style: none;
+//     width: 20%;
+//     height: 60px;
+//     border-right: 1px solid black;
+//     font-size: 20px;
+//     text-align: center;
+//     line-height: 60px;
+//     cursor: pointer;
+// }
+
+// .main .left .zoom ul li:last-child {
+//     border: none;
+// }
+
+.main .right {
+    width: 50%;
+    height: 100%;
+    background-color:gainsboro ;
+}
+
+.details {
+    width: 1200px;
+    min-height: 200px;
+    margin: 0 auto;
+}
+.zoom .kuang{
+    position:absolute;
+    left: 600px;
+    height: 340px;
+    width: 600px;
+    overflow: hidden;
+
+   
+}
+
+
+.zoom .pic span{
+    
+        position: absolute;
+        width: 110px;
+        height: 110px;
+        background: rgba(200, 200, 200, 0.6);
+        left: 0;
+        top: 0;
+        cursor: move;
+        display: none;
+   
+}

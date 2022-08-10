@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/cart.css">
+</head>
+<body>
+    <div class="cartTable">
+        <table>
+            <thead>
+                <tr>
+                    <th>全选</th>
+                    <th>商品</th>
+                    <th>单价</th>
+                    <th>数量</th>
+                    <th>小计</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td><input type="checkbox" value="" class="select" data-id="${item.goods_id}" ${item.is_select && "checked"}/></td>
+                    <td>
+                        <img src="${item.img_small_logo}" >
+                        <span class="hide">${item.title}</span>
+                    </td>
+                    <td><span>${item.price}</span></td>
+                    <td>
+                        <span class="sub" data-id="${item.goods_id}">-</span>
+                        <input type="text" value="${item.cart_number}" class="txt" data-id="${item.goods_id}"/>
+                        <span class="add" data-id="${item.goods_id}">+</span>
+                    </td>
+                    <td><span class="price">${item.price * item.cart_number}元</span></td>
+                    <td><span class="del" data-id="${item.goods_id}">删除</span></td>
+                </tr> -->
+            </tbody>
+        </table>
+        <div class="footer">
+            <div class="left">
+                <input type="checkbox" value="" class="selectAll" />
+                <span class="dlAll">删除</span>
+            </div>
+            <div class="rirght">
+                <div class="allNum">已选商品<b class="totalNum">0</b>件</div>
+                <div class="allCount">合计 ￥<b class="money">0</b></div>
+                <div class="calc">结算</div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/cart.js"></script>
+</body>
+</html>
